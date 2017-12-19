@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <defaultcontrol always="true">11</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+        <left>980</left>
+        <top>0</top>
+    </coordinates>
+    <backgroundcolor>0</backgroundcolor>
+    <include>dialogeffect</include>
+    <controls>
+        <control type="group">
+            <animation effect="slide" start="400,0" end="0,0" time="400" tween="quadratic" easing="out">WindowOpen</animation>
+            <animation effect="slide" start="0,0" end="400,0" time="400" tween="quadratic" easing="out">WindowClose</animation>
+            <control type="image" id="111">
+                <description>background image</description>
+                <left>0</left>
+                <top>53</top>
+                <width>300</width>
+                <height>110</height>
+                <texture border="40">Dialog.png</texture>
+            </control>
+            <control type="image">
+                <posx>20</posx>
+                <posy>20</posy>
+                <width>188</width>
+                <height>53</height>
+                <texture></texture>
+            </control>
+            <control type="label" id="113">
+                <posx>20</posx>
+                <posy>75</posy>
+                <width>260</width>
+                <height>38</height>
+                <font>font18</font>
+                <aligny>center</aligny>
+                <textcolor>white</textcolor>
+                <align>center</align>
+                <label></label>
+            </control>
+            <control type="list" id="112">
+                <posx>0</posx>
+                <posy>113</posy>
+                <width>300</width>
+                <viewtype label="535">list</viewtype>
+                <pagecontrol>121</pagecontrol>
+                <scrolltime>200</scrolltime>
+                <itemlayout width="300" height="36">
+                        <control type="image">
+                            <left>0</left>
+                            <top>0</top>
+                            <width>300</width>
+                            <height>38</height>
+                            <texture>MenuItemNF.png</texture>
+                        </control>
+                        <control type="image">
+                            <left>15</left>
+                            <top>10</top>
+                            <width>20</width>
+                            <height>20</height>
+                            <texture>$INFO[ListItem.Icon]</texture>
+                            <visible>true</visible>
+                        </control>
+                        <control type="label">
+                            <left>40</left>
+                            <top>0</top>
+                            <width>240</width>
+                            <height>38</height>
+                            <font>font18</font>
+                            <aligny>center</aligny>
+                            <textcolor>white</textcolor>
+                            <selectedcolor>selected</selectedcolor>
+                            <align>left</align>
+                            <info>ListItem.Label</info>
+                        </control>
+                    </itemlayout>
+                    <focusedlayout width="300" height="36">
+                        <control type="image">
+                            <left>10</left>
+                            <top>0</top>
+                            <width>280</width>
+                            <height>38</height>
+                            <texture>MenuItemNF.png</texture>
+                        </control>
+
+                        <control type="image">
+                            <left>10</left>
+                            <top>0</top>
+                            <width>280</width>
+                            <height>38</height>
+                            <texture>MenuItemFO.png</texture>
+                            <visible>Control.HasFocus(112)</visible>
+                        </control>
+                        <control type="image">
+                            <left>15</left>
+                            <top>10</top>
+                            <width>20</width>
+                            <height>20</height>
+                            <texture>$INFO[ListItem.Icon]</texture>
+                            <visible>true</visible>
+                        </control>
+                        <control type="label">
+                            <left>40</left>
+                            <top>0</top>
+                            <width>240</width>
+                            <height>38</height>
+                            <font>font18</font>
+                            <aligny>center</aligny>
+                            <textcolor>white</textcolor>
+                            <selectedcolor>selected</selectedcolor>
+                            <align>left</align>
+                            <info>ListItem.Label</info>
+                        </control>
+
+
+                    </focusedlayout>
+            </control>
+        </control>
+    </controls>
+</window>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<strings>
+	<string id="30100">Domoticz IP Address:</string>
+	<string id="30101">Port:</string>
+	<string id="30102">User:</string>
+	<string id="30103">Password:</string>
+	<string id="30104">Default Type:</string>
+	<string id="30105">Custom Idx numbers (comma-separated):</string>
+	<string id="30106">Name Roomplan:</string>
+	<string id="30201">All Switches</string>
+	<string id="30202">Favorite Switches</string>
+	<string id="30203">Roomplan</string>
+	<string id="30204">Scenes</string>
+	<string id="30205">Custom Switches</string>
+</strings>
