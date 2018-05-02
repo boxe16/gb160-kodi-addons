@@ -19,7 +19,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.radarr" name="Radarr" version="0.0.4" provider-name="GB160">
+<addon id="plugin.program.radarr" name="Radarr" version="0.0.5" provider-name="GB160">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.requests" version="2.9.1"/>
