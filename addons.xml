@@ -93,7 +93,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary_mod18" version="2.0.4" name="Estuary Mod 18" provider-name="GavB, phil65, Ichabod Fletchman">
+<addon id="skin.estuary_mod18" version="2.0.5" name="Estuary Mod 18" provider-name="GavB, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 	</requires>
