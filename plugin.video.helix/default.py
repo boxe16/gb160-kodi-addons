@@ -1,7 +1,6 @@
  #############Imports#############
 import xbmc,xbmcaddon,xbmcgui,xbmcplugin,base64,os,re,unicodedata,requests,time,string,sys,urllib,urllib2,json,urlparse,datetime,zipfile,shutil
 from resources.modules import client,control,tools,shortlinks
-from resources.ivue import ivuesetup
 from datetime import date
 import xml.etree.ElementTree as ElementTree
 #################################
