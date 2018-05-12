@@ -59,30 +59,23 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.VADER" name="[COLOR red]Vader Streams[/COLOR]" version="4.4.029" provider-name="DarthVader">
+<addon id="plugin.video.rapid"
+       name="[COLOR ghostwhite]Rapid IPTV[/COLOR]"
+       version="1.1"
+       provider-name="Rapid Tv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common"/>
-    <import addon="script.module.pyxbmct"  />
-    <import addon="script.module.requests"/>
-    <import addon="script.module.dateutil"/>
-    <import addon="script.tvguide.Vader"/>
-
+	<import addon="script.module.requests" />
   </requires>
-
   <extension point="xbmc.python.pluginsource"
-            library="init.py">
+            library="default.py">
         <provides>video</provides>
   </extension>
-
-  <extension point="xbmc.service" library="service.py" start="login"></extension>
-  <!--<extension point="xbmc.service" library="playMonitor.py" start="login"></extension>-->
-
-
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">[COLOR red]Vader-Streams[/COLOR]</summary>
-	<description lang="en">Get all your Live Sports n Live TV here</description>
-    <platform>all</platform>
+    <summary lang="en">Rapid IPTV</summary>
+    <language>en</language>
+    <description lang="en">Rapid IPTV Unofficial Addon</description>
+     <platform>all</platform>
   </extension>
 </addon>
 
