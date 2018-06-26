@@ -1,137 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.domoticzcontrol"
-       name="Domoticz Control"
-       version="0.0.6"
-       provider-name="Chopper Rob">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Control Domoticz</summary>
-    <description lang="en">Control domoticz from Kodi.</description>
-    <platform>all</platform>
-    <language></language>
-    <website>https://www.chopperrob.nl</website>
-  </extension>
-</addon>
-
-<addon id="plugin.program.radarr" name="Radarr" version="0.0.5" provider-name="GB160">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.requests" version="2.9.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<language/>
-		<summary lang="en">Radarr</summary>
-		<description lang="en">Radarr Interface</description>
-		<platform>all</platform>
-		<license>GNU General Public License v3</license>
-		<forum></forum>
-		<source></source>
-		<email></email>
-	</extension>
-</addon>
-
-<addon id="plugin.program.sonarr" name="Sonarr" version="0.0.1" provider-name="GB160">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.requests" version="2.9.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<language/>
-		<summary lang="en">Sonarr</summary>
-		<description lang="en">Sonarr Interface</description>
-		<platform>all</platform>
-		<license>GNU General Public License v3</license>
-		<forum></forum>
-		<source></source>
-		<email></email>
-	</extension>
-</addon>
-
-<addon id="plugin.video.helix"
-       name="[COLOR ghostwhite]Helix IPTV[/COLOR]"
-       version="1.2"
-       provider-name="Helix Tv">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Helix IPTV</summary>
-    <language>en</language>
-    <description lang="en">Helix IPTV Unofficial Addon</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.rapid"
-       name="[COLOR ghostwhite]Rapid IPTV[/COLOR]"
-       version="1.1"
-       provider-name="Rapid Tv">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Rapid IPTV</summary>
-    <language>en</language>
-    <description lang="en">Rapid IPTV Unofficial Addon</description>
-     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="10.0" provider-name="MikkM">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="init.py">
-        <provides>video executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Xtream-Codes IPTV</summary>
-    <website>http://kodiforever.xyz</website>
-    <description lang="en">IPTV Addon for Xteam-Codes iptv panel</description>
-    <forum></forum>
-    <email>N/A</email>
-    <disclaimer lang="en">You may use and share this addon however you like, you may NOT edit this addon in any way without conesnt of developer.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="repository.gb160.kodi" name="gb160 kodi repo" version="0.0.1" provider-name="gb160">
-	<extension point="xbmc.addon.repository" name="gb160 Add-on Repository">
-		<info compressed="false">http://raw.github.com/gb160/gb160-kodi-addons/master/addons.xml</info>
-		<checksum>http://raw.github.com/gb160/gb160-kodi-addons/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/gb160/gb160-kodi-addons/master/repo/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>gb160 kodi addons</summary>
-		<description>gb160 kodi addons</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="script.airswitcher.osx" name="Airplay Switcher OSX" version="1.0.1" provider-name="zag">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -157,6 +25,47 @@
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
 		<news>Updated the addon to use new addon.xml metadata</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.rapid"
+       name="[COLOR ghostwhite]Rapid IPTV[/COLOR]"
+       version="1.1"
+       provider-name="Rapid Tv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Rapid IPTV</summary>
+    <language>en</language>
+    <description lang="en">Rapid IPTV Unofficial Addon</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.sonarr" name="Sonarr" version="0.0.6" provider-name="GB160">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<language/>
+		<summary lang="en">Sonarr</summary>
+		<description lang="en">Addon to communicate with sonarr</description>
+		<platform>all</platform>
+		<license>GNU General Public License v3</license>
+		<forum></forum>
+		<source></source>
+		<email></email>
 	</extension>
 </addon>
 
@@ -324,6 +233,99 @@
 			<screenshot>resources/screenshot-07.jpg</screenshot>
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.program.domoticzcontrol"
+       name="Domoticz Control"
+       version="0.0.6"
+       provider-name="Chopper Rob">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Control Domoticz</summary>
+    <description lang="en">Control domoticz from Kodi.</description>
+    <platform>all</platform>
+    <language></language>
+    <website>https://www.chopperrob.nl</website>
+  </extension>
+</addon>
+
+<addon id="repository.gb160.kodi" name="gb160 kodi repo" version="0.0.1" provider-name="gb160">
+	<extension point="xbmc.addon.repository" name="gb160 Add-on Repository">
+		<info compressed="false">http://raw.github.com/gb160/gb160-kodi-addons/master/addons.xml</info>
+		<checksum>http://raw.github.com/gb160/gb160-kodi-addons/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/gb160/gb160-kodi-addons/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>gb160 kodi addons</summary>
+		<description>gb160 kodi addons</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.xtream-codes" name="Xtream-Codes IPTV" version="10.0" provider-name="MikkM">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="init.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Xtream-Codes IPTV</summary>
+    <website>http://kodiforever.xyz</website>
+    <description lang="en">IPTV Addon for Xteam-Codes iptv panel</description>
+    <forum></forum>
+    <email>N/A</email>
+    <disclaimer lang="en">You may use and share this addon however you like, you may NOT edit this addon in any way without conesnt of developer.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.helix"
+       name="[COLOR ghostwhite]Helix IPTV[/COLOR]"
+       version="1.2"
+       provider-name="Helix Tv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Helix IPTV</summary>
+    <language>en</language>
+    <description lang="en">Helix IPTV Unofficial Addon</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.radarr" name="Radarr" version="0.0.6" provider-name="GB160">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>false</reuselanguageinvoker>
+		<language/>
+		<summary lang="en">Radarr</summary>
+		<description lang="en">Radarr Interface</description>
+		<platform>all</platform>
+		<license>GNU General Public License v3</license>
+		<forum></forum>
+		<source></source>
+		<email></email>
 	</extension>
 </addon>
 </addons>
